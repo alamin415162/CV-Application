@@ -1,0 +1,96 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  
+}
+.page{
+  display: grid;
+  grid-template-rows: minmax(150px, 1fr) minmax(300px, 4fr) minmax(150px, 1fr);
+  background: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+header {
+  background-color: rgb(154, 141, 141);
+  border: 1px solid green;
+}
+h1 {
+    color: rgb(156, 208, 192);
+}
+
+.main{
+  background-color: rgb(229, 227, 224);
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 50px;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.main div {
+  text-align: center;
+}
+
+.main .info {
+  display: flex;
+  flex-direction: column;
+  background: #7e5050;
+  position: relative;
+}
+
+.main .info .entries{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10px;
+}
+.main .info span{
+  text-align: start;
+  margin-left: 10px;
+}
+.main .info .btns {
+  position: absolute;
+  top: 350px;
+  right: 10px;
+}
+.send{
+  margin: 10px;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.edu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+p{
+  padding: 5px;
+  margin: 0;
+}
+
+.fix {
+  border-radius: 10px;
+  width: 60px;
+}
+
+.main .exp .entries{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .exp input {
+  height: 30px;
+}
+span{
+  display: block;
+}
+
+.main >.btns{
+  position: absolute;
+  top: 500px;
+  right: 30px;
+  
+}
